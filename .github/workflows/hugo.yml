@@ -22,8 +22,9 @@ jobs:
          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive
       - name: Build Site
         uses: chabad360/hugo-actions@master
-      - name: Deploy to GitHub Pages
-        uses: maxheld83/ghpages@v0.2.1
-        env: 
-          BUILD_DIR: "public/"
-          secrets: GH_PAT
+      - name: Deploy site to GH Pages
+        uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+        with:
+          repo-token: ${{ secrets.GH_PAT }}
+
+
