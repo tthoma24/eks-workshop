@@ -4,7 +4,6 @@ defaultContentLanguage = "en"
 title = "Amazon EKS Workshop"
 theme = "learn"
 uglyurls = false
-googleAnalytics = "UA-44634850-4"
 sectionPagesMenu = "main"
 relativeURLs = true
 
@@ -12,17 +11,17 @@ relativeURLs = true
 hrefTargetBlank = true
 
 [params]
-editURL = "https://github.com/aws-samples/eks-workshop/edit/master/content/"
+editURL = "https://github.com/tthoma24/eks-workshop/edit/master/content/"
 themeVariant = "mine"
 showVisitedLinks = false
 author = "Brent Langston"
-description = "Amazon EKS Workshop"
+description = "AWS EKS Workshop for CUIT"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=false
 disableInlineCopyToClipBoard = true
-ghrepo = "https://github.com/aws-samples/eks-workshop/"
+ghrepo = "https://github.com/tthoma24/eks-workshop/"
 branch = "master"
 template_bucket = "eksworkshop.com"
 pygmentsUseClasses = true
